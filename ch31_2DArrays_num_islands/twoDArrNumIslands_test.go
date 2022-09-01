@@ -62,7 +62,7 @@ func Test2DArrNumIslands(t *testing.T) {
 		if tt.expectedIslands == actualIslands {
 			t.Logf("\t%s: num islands: expected=%d, actual:%d", challenges.Succeed, tt.expectedIslands, actualIslands)
 		} else {
-			t.Logf("\t%s: num islands: expected=%d, actual:%d", solve_problems_using_golang.Failed, tt.expectedIslands, actualIslands)
+			t.Logf("\t%s: num islands: expected=%d, actual:%d", challenges.Failed, tt.expectedIslands, actualIslands)
 		}
 	}
 }
